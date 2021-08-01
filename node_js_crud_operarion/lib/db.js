@@ -1,8 +1,8 @@
 var mysql = require('mysql');
 var connection = mysql.createConnection({
 	host:'localhost',
-	user:'root',
-	password:'',
+	user:'root', //Your Database User Name
+	password:'', // Your Database Password
 	database:'node_js_crud'
 });
 connection.connect(function(error){
